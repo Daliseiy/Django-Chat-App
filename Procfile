@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath bp bp.wsgi
+web: gunicorn freechat.wsgi
