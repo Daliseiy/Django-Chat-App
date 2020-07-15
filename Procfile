@@ -1,1 +1,1 @@
-web: gunicorn --chdir src freechat.wsgi
+web: gunicorn  src freechat.wsgi
