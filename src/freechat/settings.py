@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '&cw*8f2@5a##u^c7r#jj^7*-z2gn0nt+b(5n%*)q8)yxk7s@+)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = [ '192.168.43.231','localhost','https://livechatrooms.herokuapp.com/']
 
 
