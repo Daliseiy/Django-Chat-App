@@ -1,1 +1,1 @@
-web: uvicorn --pythonpath src freechat.asgi:application
+web: uvicorn  src freechat.asgi:application
