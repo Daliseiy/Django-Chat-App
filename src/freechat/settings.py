@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '&cw*8f2@5a##u^c7r#jj^7*-z2gn0nt+b(5n%*)q8)yxk7s@+)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = [ '192.168.43.231','localhost','https://livechatrooms.herokuapp.com/']
 
 
@@ -78,8 +78,7 @@ CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
         'CONFIG': {
-            "hosts": [("localhost", 6379)]
-            #[os.environ.get("REDIS_URL")]
+            "hosts": [os.environ.get("REDIS_URL")]
         },
     },
 }
@@ -135,7 +134,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static')
 ]
-#STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
 
 django_heroku.settings(locals())
