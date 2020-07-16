@@ -26,7 +26,7 @@ SECRET_KEY = '&cw*8f2@5a##u^c7r#jj^7*-z2gn0nt+b(5n%*)q8)yxk7s@+)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ '192.168.43.231','localhost']
+ALLOWED_HOSTS = [ '192.168.43.231','localhost','https://livechatrooms.herokuapp.com/']
 
 
 # Application definition
@@ -129,7 +129,7 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/2.2/howto/static-files/
+# https://dochttps://livechatrooms.herokuapp.com/s.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
