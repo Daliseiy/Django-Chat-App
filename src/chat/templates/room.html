@@ -63,12 +63,12 @@
             <div class="messages">
                 <ul id="chat-log">
                     <li class="sent">
-                        <img src="http://emilcarlsson.se/assets/mikeross.png" alt="" />
-                        <p>How the hell am I supposed to get a jury to believe you when I am not even sure that I do?!</p>
+                        <img src="https://img.icons8.com/windows/150/000000/anonymous-mask.png" alt="" />
+                        <p>Your sent messages will appear this way.</p>
                     </li>
                     <li class="replies">
-                        <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
-                        <p>When you're backed against the wall, break the god damn thing down.</p>
+                        <img src="https://img.icons8.com/windows/150/000000/anonymous-mask.png" alt="" />
+                        <p>Messages sent to you will appear this way</p>
                     </li>
                 </ul>
             </div>
@@ -100,8 +100,6 @@
             const data = JSON.parse(e.data);
             var message = data['message'];
             var author = message.author;
-            console.log(author);
-            console.log(username);
             var msgListTag = document.createElement('li');
             var imgTag = document.createElement('img')
             var pTag = document.createElement('p');
