@@ -9,6 +9,7 @@ verify_ssl = true
 django = "==2.2.6"
 channels = "*"
 gunicorn = "*"
+django-heroku = "*"
 
 [requires]
 python_version = "3.6"
