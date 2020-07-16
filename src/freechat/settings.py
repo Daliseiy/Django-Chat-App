@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'freechat.wsgi.application'
+#WSGI_APPLICATION = 'freechat.wsgi.application'
 ASGI_APPLICATION = "freechat.routing.application"
 
 CHANNEL_LAYERS = {

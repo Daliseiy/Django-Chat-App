@@ -42,6 +42,7 @@ twisted = "==20.3.0"
 txaio = "==20.4.1"
 whitenoise = "==5.1.0"
 zope-interface = "==5.1.0"
+uvicorn = "*"
 
 [requires]
 python_version = "3.6"
