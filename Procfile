@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath src freechat.asgi
+web: gunicorn --pythonpath src freechat.asgi:application
