@@ -89,6 +89,7 @@
         var username = '{{username}}';
         const roomName = JSON.parse(document.getElementById('room-name').textContent);
         const chatSocket = new ReconnectingWebSocket(
+            //use ws:// to run local
             'wss://'
             + window.location.host
             + '/chat/'

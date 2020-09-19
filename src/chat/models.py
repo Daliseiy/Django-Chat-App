@@ -1,5 +1,11 @@
 from django.db import models
 from django.contrib.auth import get_user_model
+
+"""
+Creating a message model is not really neccessary especially in the case of an anonymous user
+which i am using. Unless you want to save previous messages in the database, You can make use of this
+"""
+
 User = get_user_model()
 class Message(models.Model):
     author = models.CharField(max_length=50)
